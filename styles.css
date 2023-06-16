@@ -1,5 +1,5 @@
 * {
-    border: 4px solid red;
+    border: 1px solid red;
 }
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -8,10 +8,13 @@ body {
     display: flex;
     justify-content: space-between;
     background: #1f2937;
+    padding: 15px;
+    padding-bottom: 50px;
 }
 h3 {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 15px;
 }
 .header-logo {
     display: flex;
@@ -39,31 +42,73 @@ h1 {
 .container-text {
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
+    width: 700px;
+    padding-bottom: 50px;
 }
 .header-text {
     flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
     padding: 0;
-    margin: 0;
+   margin-top: -25px;
+   margin-bottom: 20px;
 }
 .sign-up {
     background: #3882f6;
     color: white;
     font-size: 18px;
-    padding: 10px;
-    border-radius: 10px;
-    width: 50px;
-    flex-basis: 50px;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+}
+.image-container {
+    display: flex;
+    justify-content: flex-end
+    align-items: center;
+    flex-shrink: 0;
+    padding: 10px
 }
 .main-image {
-    display: flex;
-    padding: 10px;
-    width: 500px;
-    height: 315px;
+    width: 600px;
+    height: 335px;
     overflow: hidden;
   }
   .main-container {
     display: flex;
     background: #1f2937;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-head {
+    display: flex;
+    justify-content: center;
+  }
+  .info-headline {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-image {
+    width: 200px;
+    border: 5px solid rgb(71, 131, 243);
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .grid {
+    display: flex;
+    justify-content: center
+    width: 1000px;
+    flex-shrink: 0;
   }
