@@ -1,13 +1,69 @@
+* {
+    border: 4px solid red;
+}
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+}
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-logo {
+    display: flex;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+li {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: inline;
+    margin-right: 15px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.container-text {
+    display: flex;
+    flex-direction: column;
+}
+.header-text {
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+.sign-up {
+    background: #3882f6;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    flex-basis: 50px;
+}
 .main-image {
-    width: 475px;
+    display: flex;
+    padding: 10px;
+    width: 500px;
     height: 315px;
     overflow: hidden;
   }
-  .main-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .main-container {
+    display: flex;
+    background: #1f2937;
   }
