@@ -117,7 +117,7 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 1000px;
+    padding: 20px;
     flex-shrink: 0;
     margin-bottom: 50px;
   }
@@ -128,7 +128,7 @@ h1 {
     padding: 80px;
   }
   h2 {
-    font-size: 36px
+    font-size: 36px;
     color: #1f2937;
     font-style: italic;
     font-weight: light;
@@ -152,7 +152,7 @@ h1 {
   }
   .cta-block {
     background-color: #3882f6;
-    width: 800px;
+    width: 1000px;
     height: 150px;
     display: flex;
     justify-content: center;
