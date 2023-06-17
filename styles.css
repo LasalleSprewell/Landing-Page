@@ -1,6 +1,6 @@
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header {
     display: flex;
@@ -74,6 +74,7 @@ h1 {
     width: 600px;
     height: 335px;
     overflow: hidden;
+    margin-left: 20px;
   }
   .main-container {
     display: flex;
@@ -117,7 +118,7 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 10px;
     flex-shrink: 0;
     margin-bottom: 50px;
   }
