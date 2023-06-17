@@ -22,8 +22,7 @@ ul {
     padding: 0;
     list-style: none;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 li {
     list-style: none;
@@ -37,6 +36,13 @@ h1 {
     font-weight: bolder;
     color: #f9faf8;
 }
+.main-container {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    height: 380px;
+    padding: 5px;
+  }
 .container-text {
     display: flex;
     flex-direction: column;
@@ -76,14 +82,10 @@ h1 {
     overflow: hidden;
     margin-left: 20px;
   }
-  .main-container {
-    display: flex;
-    justify-content: center;
-    background: #1f2937;
-  }
   .section1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   .section-head {
@@ -100,8 +102,9 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 200px;
     margin: 20px;
+    flex-shrink: 0;
   }
   .card-image {
     width: 200px;
@@ -116,9 +119,8 @@ h1 {
   }
   .grid {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: center;
+    padding: 5px;
     flex-shrink: 0;
     margin-bottom: 50px;
   }
